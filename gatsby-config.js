@@ -2,11 +2,11 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
-    title: `Pedro Pini`,
-    position: `Full Stack Developer`,
-    description: `A blog about full stack development and other cool stuff`,
-    author: `@pamp178`,
-    siteUrl: `https://pedropini.com.br`,
+    title: `Kavish Chandrasekaran`,
+    position: `Mechanical Engineer`,
+    description: `A blog about my life and other cool stuff`,
+    author: `@kavish`,
+    siteUrl: `https://kavish.com.au`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
