@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: PedroPini/kavishblog
+  name: gitlab
+  repo: pedroamp/kavishblog
   branch: master
   site_domain: kavish.com.au
 
