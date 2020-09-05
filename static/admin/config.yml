@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
+  repo: PedroPini/kavishblog
   branch: master
   site_domain: kavish.com.au
 
@@ -24,4 +24,23 @@ collections:
           format: "YYYY-MM-DD hh:mm:ss",
         }
       - { label: "image", name: "thumbnail", widget: "image" }
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        options: ["lyfestyle", "engineer", "travel", "me", "tips", "work"]
+      }
+      - {
+        label: "Background",
+        name: "background",
+        widget: "select",
+        options: [
+          { label: "Lyfestyle", value: "#B31917" },
+          { label: 'Engineer', value: '#2DA0C3' },
+          { label: 'Travel', value: '#D6BA32' },
+          { label: 'Me', value: '#EB7728' },
+          { label: 'Tips', value: '#7D669E' },
+          { label: 'Work', value: '#637a91' },
+        ]
+      }
       - { label: "Body", name: "body", widget: "markdown" }
